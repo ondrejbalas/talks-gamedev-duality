@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GamePlugin.core</name>
+    </assembly>
+    <members>
+        <member name="T:GameTest2.GameTest2CorePlugin">
+            <summary>
+            Defines a Duality core plugin.
+            </summary>
+        </member>
+        <member name="P:GameTest2.Spawner.InitialTimeBetweenSpawns">
+            <summary>
+            Time between spawns (in seconds)
+            </summary>
+        </member>
+        <member name="P:GameTest2.Spawner.DifficultyIncreaseRate">
+            <summary>
+            The number of pirate ships you have to sink to increase the difficulty
+            </summary>
+        </member>
+        <member name="P:GameTest2.Spawner.SpawnRadius">
+            <summary>
+            The distance from the current location to spawn at 
+            </summary>
+        </member>
+        <member name="P:GameTest2.Spawner.SpawnType">
+            <summary>
+            The prefab to spawn
+            </summary>
+        </member>
+    </members>
+</doc>
