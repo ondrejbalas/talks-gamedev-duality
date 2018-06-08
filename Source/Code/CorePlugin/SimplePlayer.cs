@@ -3,7 +3,7 @@ using Duality.Components;
 using Duality.Editor;
 using Duality.Input;
 
-namespace GameTest2
+namespace NebraskaGameDev
 {
     [EditorHintCategory("PirateParty")]
     [RequiredComponent(typeof(Transform))]
@@ -18,14 +18,17 @@ namespace GameTest2
             {
                 GameObj.Transform.MoveBy(GameObj.Transform.Forward.Normalized * SpeedMultiplier * Time.TimeMult);
             }
+
             if (DualityApp.Keyboard[Key.Down])
             {
                 GameObj.Transform.MoveBy(-GameObj.Transform.Forward.Normalized * SpeedMultiplier * Time.TimeMult);
             }
+
             if (DualityApp.Keyboard[Key.Left])
             {
                 GameObj.Transform.TurnBy(Time.TimeMult * -RotationMultiplier);
             }
+
             if (DualityApp.Keyboard[Key.Right])
             {
                 GameObj.Transform.TurnBy(Time.TimeMult * RotationMultiplier);

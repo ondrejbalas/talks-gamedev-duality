@@ -3,7 +3,7 @@ using Duality.Components;
 using Duality.Components.Physics;
 using Duality.Editor;
 
-namespace GameTest2
+namespace NebraskaGameDev
 {
     [EditorHintCategory("PirateParty")]
     [RequiredComponent(typeof(Ship))]

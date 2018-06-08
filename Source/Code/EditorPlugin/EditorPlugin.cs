@@ -5,16 +5,16 @@ using System.Text;
 
 using Duality.Editor;
 
-namespace GameTest2.Editor
+namespace NebraskaGameDev.Editor
 {
 	/// <summary>
 	/// Defines a Duality editor plugin.
 	/// </summary>
-    public class GameTest2EditorPlugin : EditorPlugin
+    public class NebraskaGameDevEditorPlugin : EditorPlugin
 	{
 		public override string Id
 		{
-			get { return "GameTest2EditorPlugin"; }
+			get { return "NebraskaGameDevEditorPlugin"; }
 		}
 	}
 }

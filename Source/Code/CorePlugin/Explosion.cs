@@ -2,7 +2,7 @@
 using Duality.Editor;
 using Duality.Resources;
 
-namespace GameTest2
+namespace NebraskaGameDev
 {
     [EditorHintCategory("PirateParty")]
     public class Explosion : Component, ICmpInitializable, ICmpUpdatable

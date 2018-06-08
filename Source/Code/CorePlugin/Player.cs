@@ -5,7 +5,7 @@ using Duality.Editor;
 using Duality.Input;
 using Duality.Resources;
 
-namespace GameTest2
+namespace NebraskaGameDev
 {
     [EditorHintCategory("PirateParty")]
     [RequiredComponent(typeof(Ship))]
@@ -72,6 +72,7 @@ namespace GameTest2
                     newCannonball =
                         CannonBallPrefab.Res.Instantiate(transform.Pos, (float) (transform.Angle - (Math.PI / 2)));
                 }
+
                 if (newCannonball != null)
                 {
                     _cannonBallInstance = newCannonball;

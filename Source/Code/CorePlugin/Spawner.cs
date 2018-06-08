@@ -6,7 +6,7 @@ using Duality.Components;
 using Duality.Editor;
 using Duality.Resources;
 
-namespace GameTest2
+namespace NebraskaGameDev
 {
     [EditorHintCategory("PirateParty")]
     [RequiredComponent(typeof(Transform))]
@@ -72,6 +72,7 @@ namespace GameTest2
                 {
                     spawnedShips.Remove(ship);
                 }
+
                 currentDifficulty = (int) Math.Floor((double) sunkShips / DifficultyIncreaseRate);
                 currentTimeBetweenSpawns = InitialTimeBetweenSpawns * Math.Pow(0.8, currentDifficulty);
             }

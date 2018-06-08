@@ -10,7 +10,7 @@
     </sourceFileHint>
   </assetInfo>
   <atlas dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Rect]]" id="2035693768">
-    <_items dataType="Array" type="Duality.Rect[]" id="2696347487" length="16">
+    <_items dataType="Array" type="Duality.Rect[]" id="2696347487">
       <item dataType="Struct" type="Duality.Rect">
         <H dataType="Float">128.444443</H>
         <W dataType="Float">128</W>

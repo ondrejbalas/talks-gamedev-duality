@@ -18,7 +18,7 @@
     <ProjectGuid>{78DBC94D-EE9D-4AC0-95ED-91A0AE2F6652}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GameTest2.Editor</RootNamespace>
+    <RootNamespace>NebraskaGameDev.Editor</RootNamespace>
     <AssemblyName>GamePlugin.editor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -5,6 +5,8 @@
     <Autosaves>ThirtyMinutes</Autosaves>
     <FirstSession>false</FirstSession>
     <ActiveDocumentIndex>0</ActiveDocumentIndex>
+    <LastOpenScene>Data\Scene.Scene.res</LastOpenScene>
+    <StartWithLastScene>true</StartWithLastScene>
   </EditorApp>
   <Plugins>
     <Plugin id="CamView">
@@ -26,9 +28,9 @@
         <States>
           <State type="Duality.Editor.Plugins.CamView.CamViewStates.RigidBodyEditorCamViewState">
             <ActiveLayers>
+              <Item>Duality.Editor.Plugins.CamView.CamViewLayers.GridCamViewLayer</Item>
               <Item>Duality.Editor.Plugins.CamView.CamViewLayers.RigidBodyJointCamViewLayer</Item>
               <Item>Duality.Editor.Plugins.CamView.CamViewLayers.RigidBodyShapeCamViewLayer</Item>
-              <Item>Duality.Editor.Plugins.CamView.CamViewLayers.GridCamViewLayer</Item>
               <Item>Duality.Editor.Plugins.CamView.CamViewLayers.BackPlateCamViewLayer</Item>
             </ActiveLayers>
             <ObjectVisibility>
@@ -62,6 +64,27 @@
         <TitleText>Object Inspector</TitleText>
         <DebugMode>false</DebugMode>
         <SortByName>true</SortByName>
+        <ExpandState>
+          <ExpandedNodes>
+            <NodeID>PropertiesDuality.Resources.Pixmap/PixmapDuality.Resources.Pixmap/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Pixmap/PixmapDuality.Resources.Pixmap/PixmapDuality.Resources.Pixmap/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Pixmap/Import / Export SettingsDuality.Resources.Pixmap/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Texture/TextureDuality.Resources.Texture/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Texture/TextureDuality.Resources.Texture/TextureDuality.Resources.Texture/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/TransformDuality.Components.Transform/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/SpriteRendererDuality.Components.Renderers.SpriteRenderer/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Scene/SceneDuality.Resources.Scene/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/ShipNebraskaGameDev.Ship/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/AnimSpriteRendererDuality.Components.Renderers.AnimSpriteRenderer/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/RigidBodyDuality.Components.Physics.RigidBody/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Material/MaterialDuality.Resources.Material/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Material/MaterialDuality.Resources.Material/Duality.Drawing.BatchInfo/</NodeID>
+            <NodeID>PropertiesDuality.Resources.Prefab/PrefabDuality.Resources.Prefab/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/CannonBallNebraskaGameDev.CannonBall/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/PlayerNebraskaGameDev.Player/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/SpawnerNebraskaGameDev.Spawner/</NodeID>
+          </ExpandedNodes>
+        </ExpandState>
       </ObjectInspector>
     </Plugin>
     <Plugin id="SceneView">

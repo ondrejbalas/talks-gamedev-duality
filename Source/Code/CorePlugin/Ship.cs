@@ -2,11 +2,10 @@
 using Duality.Components;
 using Duality.Components.Physics;
 using Duality.Components.Renderers;
-using Duality.Drawing;
 using Duality.Editor;
 using Duality.Resources;
 
-namespace GameTest2
+namespace NebraskaGameDev
 {
     [EditorHintCategory("PirateParty")]
     [RequiredComponent(typeof(RigidBody))]
@@ -18,10 +17,6 @@ namespace GameTest2
 
         public int Health { get; set; } = 3;
         private bool _collision = false;
-
-        private const int FadeWaitTime = 2000;
-        private const int FadeTime = 3000;
-        private double _deathTime;
 
         public void OnUpdate()
         {
@@ -44,23 +39,6 @@ namespace GameTest2
                 {
                     var body = GameObj.GetComponent<RigidBody>();
                     body.CollisionCategory = CollisionCategory.None;
-
-                    _deathTime = Time.GameTimer.TotalMilliseconds;
-                }
-            }
-
-            if (Health <= 0 && _deathTime + FadeWaitTime < Time.GameTimer.TotalMilliseconds)
-            {
-                var fadePercentage = (float) (Time.GameTimer.TotalMilliseconds - (_deathTime + FadeWaitTime)) /
-                                     FadeTime;
-
-                spriteRenderer.ColorTint = new ColorRgba(255, 255, 255,
-                    (byte) MathF.Clamp((1 - fadePercentage) * 255, 0, 255));
-
-                if (fadePercentage >= 1.0)
-                {
-                    GameObj.Active = false;
-                    Scene.Current.RemoveObject(GameObj);
                 }
             }
         }
