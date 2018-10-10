@@ -6,6 +6,8 @@
 *
 !.gitignore
 
+!20[0-9][0-9]*
+
 # Exceptions for Data, Source/Code, and Source/Media
 !Data/
 !Data/**
